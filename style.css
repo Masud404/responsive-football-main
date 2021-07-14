@@ -1,0 +1,54 @@
+/*---------- font family--------- */
+body{
+    font-family: 'Poppins', sans-serif;
+    max-width: auto;
+}
+/* header */
+.header-section{
+    max-width: auto;
+    height: 677px;
+    background-color: #2D25A0;
+    }
+.main-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+.heading{
+    margin-left: 126px;
+    margin-right: 102px;
+    margin-top: 150px;
+    margin-bottom: 240px;
+    color: white;
+    }
+.heading-title{
+    font-size: 55px;
+    margin-bottom: 27px;
+    }
+.button-live{
+font-size: 16px;
+color: white;
+font-weight: 500;
+width: 168px;
+height: 44px;
+background-color:  #E02C6D;
+padding: 10px 24px;
+border: 0px;
+transition: transform 1s;
+}
+.button-live:hover{
+    transform: rotate(360deg);
+}
+.header-images img{
+    width: 556px;
+    height: 438px;
+    margin-right: 140px;
+    margin-bottom: 86px;
+    
+}
+.header-images{
+    transition:transform 1s;
+}
+.header-images:hover{
+    transform: rotate(360deg);
+}
