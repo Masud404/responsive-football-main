@@ -164,4 +164,52 @@ transition: transform 1s;
     font-weight: 400;
     color: black;
 }
+/* Mobile device */
+@media only screen and (max-width:688px){
+   
+    
+    .heading{
+        width: 100%;
+        margin: 0;
+    }
+    .header-images img{
+        width: 329px;
+        height: 260px;
+        margin-top: 30px;
+    }
+    .main-heading{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .second-section{
+        align-items: center;
+        justify-content: center;
+    }
+    .top-player{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        }
+    .top-player{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .blog-container{
+        flex-direction: column;
+    }
+    .football img{
+        margin: auto;
+        width: 225px;
+        height: 100px;
+        padding-left: 100px;
+    }
+    .blog-images img{
+        width: 228px;
+        height: 248px;
+    }
+     .sign{
+        padding-left: 20px;
+    }
+    
+}
 
