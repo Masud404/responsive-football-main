@@ -23,6 +23,7 @@ body{
     }
 .heading-title{
     font-size: 55px;
+    font-weight: 700;
     margin-bottom: 27px;
     }
 .button-live{
@@ -55,6 +56,7 @@ transition: transform 1s;
 /*-------------- article------- */
 .second-section{
     margin-top: 70px;
+    margin-bottom: 165px;
 }
 .top-player{
     display: grid;
@@ -89,4 +91,26 @@ transition: transform 1s;
     font-size: 16px;
     color: #6C6C6C;
     font-weight: 400;
+}
+/* -----------third-section----------- */
+.blog-container{
+    display: flex;
+    margin-left: 142px;
+}
+.blog{
+    padding-right: 66px;
+}
+.blog-title{
+    font-size: 48px;
+    font-weight: 700;
+}
+.player-detail{
+    margin-top: 8px;
+}
+.blog-images{
+    margin-right: 156px;
+}
+.blog-images img{
+    width: 567px;
+    height: 427px;
 }
