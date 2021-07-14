@@ -114,3 +114,29 @@ transition: transform 1s;
     width: 567px;
     height: 427px;
 }
+/*---------------- sign in and sign up------------ */
+.sign{
+    display: flex;
+     margin-top: 100px;
+     justify-content: space-around;
+     align-items: center;
+     box-shadow: 10px 10px 50px grey;
+}
+#sign-in{
+    width: 300px;
+    height: 450px;
+}
+#sign-up{
+    width: 300px;
+    height: 450px;
+}
+.sign-color{
+    color: #2D25A0;
+}
+.terms{
+    color: red;
+}
+.button{
+    font-weight: 900;
+}
+
